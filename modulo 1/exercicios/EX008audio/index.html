@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagem dinamica: <mark>PICTURE</mark></h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+    <p>Para isso precisamos usar a tag: <mark style="background-color: rgb(186, 146, 223);">source</mark> em media type e indicar o tamanho dos px, e em <mark style="background-color: blueviolet;">srcset</mark> adicionar a imagem menor ou maior. <u>1050px</u> tamanho max da barra de rolagem </p>
+     <picture>
+         <source media="(max-width:750px )" srcset="imagens/foto-P.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/fotos-M.png" type="image/png">
+        <img src="imagens/foto-G.png" alt="imagem flexiveel">
+     </picture>
+<h1>Reproduzindo audio</h1>
+<p>vamos aprender a reproduzir audioos em HTML: <mark>AUDIO src</mark>, controls/autoplay. <u>Limitada</u></p>
+<audio src="media/dewey.mp3.mp3" controls loop ></audio>
+<h2>Audio "ilimitado": <mark>AUDIO</mark> </h2>
+<audio preload="metadata" controls loop>
+    <source src="media/guanacast-33.mp3" type="audio/mpeg">
+    <source src="media/guanacast-33.ogg" type="audio/ogg">
+    <source src="media/guanacast-33.wav" type="audio/wav">
+    <p>infelizmente seu navegador não consegue reproduzir audio, clique aqui para baixar o arquivo: <a href="media/guanacast-33.mp3">BAIXAR</a></p>
+</audio>
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+        body{
+            background-color: rgb(186, 124, 245);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+        }
+        h1{
+            color: rgb(28, 0, 70);
+            background-color: rgb(255, 255, 255);
+        }
+        p{
+            color: rgb(255, 255, 255);
+            text-align: justify;
+        }
